@@ -10,7 +10,7 @@ profile:
   image: lyq.png
   image_circular: false
   # 【关键修改】通过 style 缩小照片宽度，你可以根据喜好调整 200px 这个数值
-  style: "width: 150px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+  style: "width: 100px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
   more_info: >
     <p style="font-size: 0.9rem;"><i class="fas fa-phone"></i> 183-5623-9270</p>
     <p style="font-size: 0.9rem;"><i class="fas fa-envelope"></i> P22314125@stu.ahu.edu.cn</p>
