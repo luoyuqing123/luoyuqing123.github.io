@@ -1,34 +1,73 @@
 ---
 layout: about
-title: about
+title: 关于我
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ahu.edu.cn/'>安徽大学</a> · 通信工程专业
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: lyq.png # 请确保照片已上传至 assets/img/lyq.png
+  image_circular: false 
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><i class="fas fa-phone"></i> 183-5623-9270</p>
+    <p><i class="fas fa-envelope"></i> P22314125@stu.ahu.edu.cn</p>
+    <p><i class="fas fa-map-marker-alt"></i> 中国 · 合肥</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true 
+social: true 
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true 
+  scrollable: true 
+  limit: 5 
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true 
+  limit: 3 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 个人简介
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+我是 **罗玉清**，目前是**安徽大学**通信工程专业的本科生（2023级）。在校期间，我担任学校**电子创新实验室**管理员，同时也是校**田径队**成员。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+我的科研兴趣集中在**光通信**与**深度学习**的交叉领域。目前的研究重点是构建复杂大气环境下的自由空间光通信（FSO）稳健解调架构，并探索基于强化学习的无人系统自主导航算法。
+
+我拥有扎实的学术基础（GPA **4.15/5.0**，专业前 **5%**），曾获得**国家励志奖学金**、**全国大学生电子设计竞赛（NUEDC）省级二等奖**等多项荣誉。
+
+---
+
+## 科研与项目经历
+
+### 1. 基于深度学习的 OAM-FSO 通信研究 (2025.04 - 至今)
+**核心领域：** *大气湍流抑制与信号恢复*
+- 设计了一种**级联深度学习架构**，用于缓解轨道角动量（OAM）复用系统中的模式畸变与相位干扰。
+- 提出基于 **CNN-ViT (Vision Transformer)** 的混合模型进行模式识别，将强湍流环境下的识别准确率从传统 CNN 的 86% 提升至 **97%**。
+- 引入基于熵调制的 **LLR（对数似然比）校准方法**，结合 LDPC 编码显著降低了系统误码率（BER）。
+- *进展：* 论文手稿目前在 **Optics Express** (Optica 旗下 Top 期刊) 审稿中。
+
+### 2. 四足机器人跨楼层自主导航系统 (2025.08 - 至今)
+**核心领域：** *视觉语言模型 (VLM) 与强化学习*
+- 基于 **TD3 (Twin Delayed DDPG)** 深度强化学习框架，为机器人狗设计了室内无图导航算法。
+- 提出一种**分级决策机制**，利用 2D/3D 拓扑数据压缩技术，实现了多楼层复杂环境下的稳定导航与任务切换。
+- 结合 **VLM（视觉语言模型）** 增强机器人对环境的语义理解能力，提升了在非结构化校园场景下的泛化性能。
+
+### 3. 嵌入式系统与电子设计 (2025.05 - 2025.08)
+**核心领域：** *视觉引导控制与信号处理*
+- 担任 2025 年 **全国大学生电子设计竞赛 (NUEDC)** 参赛队负责人，获**安徽省二等奖**。
+- 基于 **K230** 视觉模块实现了实时目标检测与基于 PID 的电机控制系统。
+- 采用 **Harris 角点检测**与最小二乘法拟合，开发了高精度定位算法，确保了装置的鲁棒性。
+
+---
+
+## 教育背景
+- **安徽大学 · 工学学士 (通信工程)**, 2023 - 2027 (预计)
+  - **绩点：** 4.15/5.0 (排名: 8/162, 前 5%)
+  - **核心课程：** 信号与系统 (96), 数字信号处理 (96), 信息论与编码 (98), 电磁场与电磁波 (99)。
+
+## 荣誉奖项
+- **国家励志奖学金** (2025)
+- **全国大学生电子设计竞赛（安徽赛区）二等奖** (2025)
+- **高教社杯全国大学生数学建模竞赛（安徽赛区）三等奖** (2024)
+- **安徽大学“三好学生”** (2024, 2025)
+- **安徽大学第 60 届田径运动会女子栏第四名** (2025)
